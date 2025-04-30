@@ -1,0 +1,31 @@
+{
+    "users": [
+      {
+        "name": "Usuario Demo",
+        "email": "demo@qa.com",
+        "password": "123456"
+      },
+      {
+        "name": "Ana Tester",
+        "email": "ana@test.com",
+        "password": "pruebas"
+      }
+    ],
+    "tasks_demo@qa.com": [
+      {
+        "id": 1714425600001,
+        "text": "Revisar reporte diario"
+      },
+      {
+        "id": 1714425600002,
+        "text": "Completar caso de prueba 01"
+      }
+    ],
+    "tasks_ana@test.com": [
+      {
+        "id": 1714425600003,
+        "text": "Actualizar documentación"
+      }
+    ]
+  }
+  
