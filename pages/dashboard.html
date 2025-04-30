@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Miniportal Selenium</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido, <span id="userName"></span></h1>
+        <button id="logoutBtn" class="btn logout">Cerrar Sesión</button>
+    </header>
+
+    <main>
+        <section class="dashboard-container">
+            <h2>Mis Tareas</h2>
+
+            <form id="taskForm">
+                <div class="form-group">
+                    <input type="text" id="taskInput" placeholder="Nueva tarea..." required>
+                    <button type="submit" class="btn">Agregar</button>
+                </div>
+            </form>
+
+            <ul id="taskList" class="task-list">
+                <!-- Aquí se cargarán las tareas dinámicamente -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Miniportal Selenium. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>

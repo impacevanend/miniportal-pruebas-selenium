@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario - Miniportal Selenium</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Perfil de Usuario</h1>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <form id="profileForm">
+                <div class="form-group">
+                    <label for="name">Nombre completo:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <button type="submit" class="btn">Guardar Cambios</button>
+            </form>
+
+            <p><a href="dashboard.html">Volver al Dashboard</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Miniportal Selenium. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../js/profile.js"></script>
+</body>
+</html>
